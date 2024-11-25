@@ -286,5 +286,24 @@ function greet_me() {
 }
 
 greet_me();
+
+echo "<br>";
+echo "<br>";
+function street_name ($name){
+    echo "$name Asaba. <br>";
+}
+
+street_name("ojogor");
+street_name("brown");
+echo "<br>";
+echo "<br>";
+function homeAddress ( $snumber, $name) {
+    echo "$snumber street $name Asaba. <br>";
+}
+homeAddress("5th", "Ojogor");
+homeAddress("9th", "brown");
+
+
+
 ?>
 
